@@ -24,12 +24,12 @@ def main():
         try:
             text = f"Messege # {mesege_number}"
             send_message(text)
-            time.sleep(5)
+            time.sleep(300)
             mesege_number += 1
 
         except Exception as e:
             print(f'Бот упал с ошибкой: {e}')
-            time.sleep(5)
+            time.sleep(300)
             continue
 
 

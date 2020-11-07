@@ -22,7 +22,7 @@ def main():
     mesege_number = 1
     while True:
         try:
-            text = f"Messege # {mesege_number}"
+            text = f"Messege # {mesege_number}. + test autodeploy."
             send_message(text)
             time.sleep(300)
             mesege_number += 1
